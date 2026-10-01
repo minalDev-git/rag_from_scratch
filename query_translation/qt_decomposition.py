@@ -2,7 +2,6 @@
 
 import os
 from dotenv import load_dotenv
-from operator import itemgetter
 from langchain_groq import ChatGroq
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.document_loaders import WebBaseLoader
